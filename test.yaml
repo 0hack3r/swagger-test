@@ -1,11 +1,5 @@
-swagger: '2.0'
+swagger: "2.0"
 info:
-  version: 1.0.0
-  title: Fake Login Page
-  description: '<img src=x onerror=confirm(origin);/>'
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+  title: "Vulnerable API"
+  description: "<script>alert('XSS');</script>"
+paths: {}
