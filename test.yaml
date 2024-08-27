@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<script>alert(document.cookie)</script>'
+  description: '<img src=x onerror=confirm(origin);/>'
 paths:
   /:
     post:
